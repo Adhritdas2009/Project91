@@ -1,0 +1,44 @@
+#div1{
+    background-color: white;
+    border-radius:100px;
+    margin-left: 400px;
+    margin-right: 470px;
+    margin-bottom: 100px;
+}
+
+#name1{
+    width: 300px;
+}
+
+#name2{
+    width: 300px;
+}
+
+#number1div{
+    background-color: white;
+    border-radius:100px;
+    width: 60%;
+    height: 100px;
+    padding: 15px;
+}
+
+
+#number2div{
+    background-color: white;
+    border-radius:100px;
+    width: 60%;
+    height: 100px;
+    padding: 15px;
+}
+#firstinp{
+    width: 300px;
+}
+
+#secinp{
+    width: 300px;
+}
+
+#question{
+    width: 50%;
+    height: 150px;
+}

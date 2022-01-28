@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Project 89</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body class="bg bg-danger">
+        <div class="container"><br><br>
+            <div style="margin-top: 50px;">
+        <label id="user1name"><span id="u1score"></span></label><br><br>
+        <label id="user2name"><span id="u2score"></span></label>
+    </div>
+        <center>
+            <h1>Math Game</h1>
+            <br><br>
+            <h2 id="questionturn"></h2>
+            <br>
+            <h2 id="answerturn"></h2><br><br><br>
+            <div id="answerdiv" style="height: 100px; width: 500px; background-color: aliceblue; border-radius: 100px; margin-right: 50px;">
+            
+            </div>
+        
+            <br><br>
+            <div id="number1div">
+                <label>First number</label>
+                <br>
+                <input class="form-control" width="300px" type="text" placeholder="Type Number" id="no1">
+                <br><br>
+            </div><br><br><br><br>
+            <div id="number2div">
+                <br>
+                <label>Second number</label>
+                <br>
+                <input class="form-control" width="300px" type="text" placeholder="Type Number" id="no2">
+                <br>
+            </div><br><br>
+            <button class="btn btn-danger" onclick="send()" style="width: 30%;">Send</button>
+            <br><br>
+        </center>
+        <script src="gamepage.js"></script>
+    </div>
+    </body>
+</html>
